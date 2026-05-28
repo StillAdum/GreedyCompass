@@ -1,0 +1,36 @@
+# configuration (config.yml)
+# ===========================
+
+# Duration of the compass tracking in seconds (16 minutes = 960 seconds)
+compass-duration: 960
+
+enable-streak-reset: true
+streak-reset-days: 4
+
+streak-costs:
+  1: "10, DIAMOND"
+  2: "10, DIAMOND"
+  3: "20, GOLD_INGOT"
+  4: "30, EMERALD"
+  5: "40, DIAMOND_BLOCK"
+  6: "50, EMERALD_BLOCK"
+  7: "60, NETHERITE_INGOT"
+  default-increment: "10, NETHERITE_INGOT"
+
+gui:
+  title: "<dark_gray>Confirm Tracking Purchase</dark_gray>"
+  confirm-button: "<green><bold>CONFIRM PURCHASE</bold></green>"
+  deny-button: "<red><bold>CANCEL</bold></red>"
+  info-button: "<gold><bold>Tracking Details</bold></gold>"
+
+messages:
+  prefix: "<gold>[GreedyCompass]</gold> "
+  no-permission: "<red>You do not have permission to run this command.</red>"
+  player-only: "<red>Only players can execute this command.</red>"
+  player-not-found: "<red>That player cannot be found or is offline.</red>"
+  cannot-track-self: "<red>You cannot track yourself!</red>"
+  not-enough-items: "<red>You do not have enough items! Requires: <yellow><cost> <item></yellow>.</red>"
+  started-tracking: "<green>Tracking session activated for <white><target></white>!</green>"
+  dimension-info: "<yellow>Target <white><target></white> is currently located in the <light_purple><dimension></light_purple> dimension.</yellow>"
+  dimension-change: "<gold>Alert: <white><target></white> has jumped to the <light_purple><dimension></light_purple> dimension!</gold>"
+  expired: "<red>Your tracking tracking compass has run out of power and expired.</red>"

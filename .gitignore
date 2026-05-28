@@ -1,0 +1,17 @@
+#gradle
+.gradle/
+/build/
+out/
+classes/
+
+#idea
+.idea/
+*.iml
+*.ipr
+*.iws
+
+#node stuff
+/node_modules/
+testbot.js
+package-lock.json
+package.json

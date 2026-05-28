@@ -1,0 +1,12 @@
+name: GreedyCompass
+version: '1.0.0'
+author: StillAdum
+description: follow ppl wit a expensive compass
+main: com.adum.greedyCompass.GreedyCompass
+api-version: '26.1.2'
+load: POSTWORLD
+commands:
+  track:
+    description: Track another player.. for a fee
+    permission: greedycompass.track
+    usage: /track <playername>
